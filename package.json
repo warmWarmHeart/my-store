@@ -1,0 +1,15 @@
+{
+  "name": "vue-hao-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haoxl3/vue-hao-pay.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haoxl",
+  "license": "ISC"
+}

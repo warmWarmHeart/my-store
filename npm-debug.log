@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\software\\node\\install\\node.exe',
+1 verbose cli   'D:\\software\\node\\install\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'E:\\private_projects\\vue-hao-pay',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\haoxl\AppData\Roaming\npm-cache\vue-hao-pay\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\haoxl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle vue-hao-pay@1.0.0~prepublish: vue-hao-pay@1.0.0
+11 silly lifecycle vue-hao-pay@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\haoxl\\AppData\\Roaming\\npm-cache\\vue-hao-pay\\1.0.0\\package.tgz',
+12 verbose tar pack   'E:\\private_projects\\vue-hao-pay' ]
+13 verbose tarball C:\Users\haoxl\AppData\Roaming\npm-cache\vue-hao-pay\1.0.0\package.tgz
+14 verbose folder E:\private_projects\vue-hao-pay
+15 verbose addLocalTarball adding from inside cache C:\Users\haoxl\AppData\Roaming\npm-cache\vue-hao-pay\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\haoxl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd vue-hao-pay@1.0.0
+18 verbose afterAdd C:\Users\haoxl\AppData\Roaming\npm-cache\vue-hao-pay\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\haoxl\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\haoxl\AppData\Roaming\npm-cache\vue-hao-pay\1.0.0\package\package.json written
+21 silly publish { name: 'vue-hao-pay',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: '',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   author: { name: 'haoxl' },
+21 silly publish   license: 'ISC',
+21 silly publish   gitHead: 'c053de4c65be45aa03128953d9d492ca62fafcee',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: 'vue-hao-pay@1.0.0',
+21 silly publish   _shasum: 'b143c6e1a208db5ca29120c89e836b376618cca1',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name vue-hao-pay
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry http://registry.npm.taobao.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'vue-hao-pay',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'vue-hao-pay',
+26 silly mapToRegistry   name: 'vue-hao-pay',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri http://registry.npm.taobao.org/vue-hao-pay
+28 verbose publish registryBase http://registry.npm.taobao.org/
+29 silly publish uploading C:\Users\haoxl\AppData\Roaming\npm-cache\vue-hao-pay\1.0.0\package.tgz
+30 verbose request uri http://registry.npm.taobao.org/vue-hao-pay
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 14:35:03
+33 verbose request id 552bec0ca86667a0
+34 http request PUT http://registry.npm.taobao.org/vue-hao-pay
+35 http 403 http://registry.npm.taobao.org/vue-hao-pay
+36 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+36 verbose headers   date: 'Fri, 15 Dec 2017 06:35:07 GMT',
+36 verbose headers   'content-type': 'application/json; charset=utf-8',
+36 verbose headers   'transfer-encoding': 'chunked',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-current-requests': '1',
+36 verbose headers   'x-readtime': '4',
+36 verbose headers   'content-encoding': 'gzip' }
+37 verbose request invalidating C:\Users\haoxl\AppData\Roaming\npm-cache\registry.npm.taobao.org\vue-hao-pay on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: no_perms Private mode enable, only admin can publish this module: vue-hao-pay
+39 verbose stack     at makeError (D:\software\node\install\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (D:\software\node\install\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+39 verbose stack     at D:\software\node\install\node_modules\npm\node_modules\npm-registry-client\lib\request.js:216:7
+39 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+39 verbose stack     at emitNone (events.js:91:20)
+39 verbose stack     at Gunzip.emit (events.js:185:7)
+39 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+39 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+39 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+40 verbose statusCode 403
+41 verbose pkgid vue-hao-pay
+42 verbose cwd E:\private_projects\vue-hao-pay
+43 error Windows_NT 10.0.15063
+44 error argv "D:\\software\\node\\install\\node.exe" "D:\\software\\node\\install\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+45 error node v6.11.3
+46 error npm  v3.10.10
+47 error code E403
+48 error no_perms Private mode enable, only admin can publish this module: vue-hao-pay
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
